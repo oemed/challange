@@ -13,5 +13,17 @@
         <li> <a href="salons.html">Salons</a> </li>
         <li> <a href="openingstijden.html">Openingstijden</a> </li>
 </ol>
+
+<H1>Onze Salon</H1>
+<br>
+<img src="img/barbershop2.jpg" alt="foto salon">
+
+<script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCKG2S7lrtR4jQoE-1uzhSEbp1yzy4-6iY'>
+</script><div style='overflow:hidden;height:300px;width:1024px;'>
+    <div id='gmap_canvas' style='height:300px;width:1024px;'>
+    </div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
+</div> <a href='http://maps-generator.com/nl'>Maps-Generator.com</a>
+<script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=e594a4b1568ec0a76bd70f05735d2ddb5a5d1ef7'></script>
+<script type='text/javascript'>function init_map(){var myOptions = {zoom:11,center:new google.maps.LatLng(52.3930168,5.2159824999999955),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(52.3930168,5.2159824999999955)});infowindow = new google.maps.InfoWindow({content:'<strong>Salon locatie</strong><br>noorderplassenweg<br> almere<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
 </body>
 </html>
